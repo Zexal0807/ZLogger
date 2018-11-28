@@ -1,9 +1,9 @@
 # ZLogger
-Class for create log
+Class for creating log
 
 ## How to use ? 
 
-create new Php Class extends ZLogger
+Create new Php Class that extends ZLogger class
 
 ```PHP
 class MyLogger extends ZLogger{
@@ -11,7 +11,7 @@ class MyLogger extends ZLogger{
 }
 ```
 
-You can set the date format
+You can set the date format, the default is "Y-m-d H:i:s"
 
 ```PHP
 class MyLogger extends ZLogger{
@@ -21,7 +21,7 @@ class MyLogger extends ZLogger{
 }
 ```
 
-You can set the log directory
+You can set the log directory, the default is "log/"
 
 ```PHP
 class MyLogger extends ZLogger{
@@ -33,7 +33,7 @@ class MyLogger extends ZLogger{
 
 ## How to call it ? 
 
-In your PHP script create new object of your class, for write a new log call **writeLog** passing who do something and what he do;
+In your PHP script create new instance of your class, for writing a new log, call **writeLog** method passing the 2 parameters in order to perform whatever do you want it does
 
 ```PHP
 $logger = new MyLogger();
