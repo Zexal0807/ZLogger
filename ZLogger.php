@@ -1,14 +1,21 @@
 <?php
 class ZLogger{
-
+	/*
+		Char in each lines (that is not the max or the min, it's the medium value)
+	*/
 	protected $logSize = 100;
-
+	/*
+		Lines in each file (the is the max lines if each lines have $logSize char)
+	*/
 	protected $logLines = 5000;
-	
+	/*
+		Log directory
+	*/
 	protected $logDir = "log/";
-
+	/*
+		Date format 
+	*/
 	protected $dateFormat = "Y-m-d H:i:s";
-	
 	
 	private $filename;
 	
