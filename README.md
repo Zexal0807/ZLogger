@@ -1,7 +1,7 @@
 # ZLogger
 Class for create log
 
-'''PHP
+```PHP
 $logger = new Logger()
 
-'''
+```
